@@ -1,0 +1,7 @@
+.idea
+*.iml
+.terraform
+*.lock.hcl
+*.tfstate
+*.tfstate.backup
+target/
