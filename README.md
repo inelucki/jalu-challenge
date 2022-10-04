@@ -78,11 +78,11 @@ that instead would have been an overhead without any reasonable benefits. That a
 
 ## Monitoring, Logging, Tracing
 
-Logs are send to Cloudwatch and I tried to add meaningful logs. Even though I have to admit that I might have added
+Logs are sent to Cloudwatch and I tried to add meaningful logs. Even though I have to admit that I might have added
 too many logs to make up for the missing custom metrics. Monitoring wise I think the default metrics from Lambda are
 sufficient for this use-case. I did not enable X-Ray-Tracing, because we could only have a look at single-hop traces
-which doesn't bring a lot ov value.
-I would have approached this topic very different in a real environment. But this is heavily relying on the available
+which doesn't bring a lot of value.
+I would have approached this topic very differently in a real environment. But this is heavily relying on the available
 tooling and common practices.
 
 
